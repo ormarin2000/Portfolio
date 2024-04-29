@@ -1,38 +1,29 @@
-### Portfolio
-#These are a collection of projects I have done regarding quantitative 
+# Quantitative Analysis and Modeling Projects
 
-Quantitative Finance Projects Showcase
-Introduction
-Welcome to my quantitative finance projects showcase! In this repository, you'll find a compilation of projects that demonstrate my skills and expertise in the field of quantitative finance. Most of the codebases are written in Python, R, thinkScript, and Pine Script. Each project is designed to showcase different aspects of my abilities, ranging from data analysis and modeling to algorithm development and financial forecasting.
+## Introduction
+Welcome to my repository showcasing my quantitative analysis and modeling projects. In this repository, you'll find implementations of various models and scanners using Python, R, thinkScript, and Pine Script. Below, I briefly introduce two main projects included in this repository.
 
-Projects
-1. Project Name 1
-Description: Brief overview of the project and its objectives.
-Technologies Used: Python, R
-Key Features:
-Highlight notable features or methodologies applied in the project.
-Results: Summary of findings, insights gained, or outcomes achieved.
-2. Project Name 2
-Description: Brief overview of the project and its objectives.
-Technologies Used: Python, thinkScript
-Key Features:
-Highlight notable features or methodologies applied in the project.
-Results: Summary of findings, insights gained, or outcomes achieved.
-3. Project Name 3
-Description: Brief overview of the project and its objectives.
-Technologies Used: Python, Pine Script
-Key Features:
-Highlight notable features or methodologies applied in the project.
-Results: Summary of findings, insights gained, or outcomes achieved.
-Usage
-Each project directory contains detailed documentation on how to reproduce the results, run the code, and interact with any provided demonstrations or visualizations.
+## Project 1: SARIMA Model of AAPL (R)
+- **Description:** Developed a SARIMA (Seasonal Autoregressive Integrated Moving Average) model for analyzing the stock performance of AAPL (Apple Inc.).
+- **Methodology:**
+  - Used a cross-validation scheme with 8 years of actual data vs 2 for comparison.
+  - Transformed data to logarithmic scale to reduce autocorrelation and kurtosis.
+  - Implemented SARIMA model with one difference and 2 seasonal moving averages.
+- **Conclusion:** The forecast suggests a potential small downtrend or consolidation phase in the coming years. However, analysis of Apple's consolidated statements for the current year indicates a strong improvement in sales and total assets. This leads to the belief that the current performance dip may be short-term, with expected growth to resume once this period passes.
 
-Contribution
-If you find any issues, have suggestions for improvements, or would like to contribute to any of the projects, please feel free to open an issue or submit a pull request. Your contributions are greatly appreciated!
+## Project 2: Bollinger Bands Volatility Squeeze Scanner (Python)
+- **Description:** Developed a scanner using Python to identify volatility squeeze patterns based on Bollinger Bands for stocks in the S&P500.
+- **Features:**
+  - Filters stocks based on band width, bands range, volume, upper or lower cross, and 52-week support or resistance break.
+  - Provides user input options to sort for long or short signals.
+- **Usage:** The scanner assists in identifying potential trading opportunities within the S&P500 by detecting periods of reduced volatility and impending breakout or breakdown scenarios.
 
-Contact
-For any inquiries or collaboration opportunities, you can reach me at your@email.com.
+## Usage
+To utilize the provided projects, clone this repository to your local machine and follow the instructions provided within each project directory.
 
-License
-This project is licensed under the MIT License.
+## Contributing
+Contributions and feedback are welcome! Feel free to submit pull requests or open issues for any improvements or suggestions.
+
+## License
+This repository is licensed under the [MIT License](LICENSE).
 
