@@ -18,9 +18,6 @@ Welcome to my repository showcasing my quantitative analysis and modeling projec
   - Provides user input options to sort for long or short signals.
 - **Usage:** The scanner assists in identifying potential trading opportunities within the S&P500 by detecting periods of reduced volatility and impending breakout or breakdown scenarios.
 
-## Usage
-To utilize the provided projects, clone this repository to your local machine and follow the instructions provided within each project directory.
-
 ## Contributing
 Contributions and feedback are welcome! Feel free to submit pull requests or open issues for any improvements or suggestions.
 
